@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    font-family: Nunito;
+    background-image: url(img/fotos-de-supermercados-brhr0v0zqqxvtafp.jpg);
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    padding: 230px;
+    
+}
+
+button {
+  background-color: #af4c6d;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 14px;
+  border-radius: 13px;
+  border-color: #000000;
+  margin-right: 10px;
+
+}
+
+button:hover {
+  background-color: #9e3c5d;
+}
+
+h1{
+    color: #af4c6d;
+}
+
+section{
+    height: 400px;
+    width: 500px;
+    background-color: #f3f3f3;
+    border-radius: 13px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="nome"],
+input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
