@@ -2,31 +2,32 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
-    <script src="script.js" defer></script>
-    <title>Lista de compras</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Lista de compras</title>
 </head>
 
 <body>
+  <section>
+    <h1>Lista de Compras Interativa</h1>
 
-    
+    <form id="formulario">
+      <input type="text" id="nome" placeholder="Nome do Produto" required />
+      
+      <input type="number" id="quantidade" placeholder="Quantidade" required min="1" />
+      <br>
+      <br>
 
-    
-        <section>
-            <br>
-            <h1>Lista de compras interativa</h1>
-            <h3></h3>
-            <input type="nome" id="nome" placeholder="Nome do Produto" required />
-            <input type="email" id="email" placeholder="Quantidade" required />
-            <br>
-            <br>
-            <button id="botao1" type="submit">Adicionar Item</button>
-            <button id="botao2" type="reset">Limpar Lista</button></section>
-    </div>
+      <div class="botoes">
+        <button type="submit" id="botao1">Adicionar Item</button>
+        <button type="button" id="botao2">Limpar Lista</button>
+      </div>
+    </form>
 
+    <ul id="lista-itens"></ul>
+  </section>
 </body>
 
 </html>
